@@ -1,3 +1,10 @@
+game.StarterGui:SetCore(
+    "SendNotification",
+    {
+	Title = "Neverlockin BETA 0.1v",
+	Text = "Anti Lock enabled",
+}
+)
 local Zenaki = false
 
 function onKeyPress(inputObject, gameProcessedEvent)
